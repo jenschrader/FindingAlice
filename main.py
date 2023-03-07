@@ -6,25 +6,10 @@ Created on Wed Oct 26 18:41:55 2022
 @author: JenSc
 """
 # =============================================================================
-#  *-- PYGAME PLATFORMER --*
-# game created from pygame platformer tutorial
+#  *--Finding Alice--*
+# proof of concept for SDEV 148 featuring one lvl
 # =============================================================================
 
-
-# =============================================================================
-# *-- story --*
-# *************************************
-# after experiencing a terrible accident,
-# the main character (the PLAYer)
-# is transported to the spirit world
-# where they must collect the pieces of
-# their fractured soul in order to return home.
-# in the spirit world, the enemies are
-# the character's "shadow selves", the dark parts
-# of their soul that want to keep them in limbo.
-# ...more to come...
-# *************************************
-# =============================================================================
 
 # =============================================================================
 # # * -- game set up --*
@@ -47,7 +32,7 @@ SCREEN_HEIGHT = 600
 # create screen display
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 # set caption
-#pygame.display.set_caption("pygame platformer")
+pygame.display.set_caption("Finding Alice")
 # define font 
 font = pygame.font.Font("PressStart2P-Regular.ttf", 20)
 # *************************************
@@ -688,7 +673,7 @@ while PLAY:
         if CUT_SCENE is True:
             screen.fill(black)
             long_txt("After experiencing a terrible accident,\n"
-            "Veggie is transported\nto the spirit world\n"
+            "Alice is transported\nto the spirit world\n"
             "where she must collect\nthe pieces of "
             "her\nfractured soul in order\nto return home.\n"
             "\n\n\n\n\n"
