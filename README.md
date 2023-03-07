@@ -7,7 +7,7 @@
 
  *Developed with Pygame*
  
- ## Story
+## Story
  
  *Alice's journey*
  
