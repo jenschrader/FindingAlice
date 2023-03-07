@@ -17,6 +17,11 @@
 > Only by facing these shadows head-on and reclaiming the lost pieces of her soul can she hope to find her way back to the world of the living.
 
 
+##Preview
+
+![pygame platformer(4)](https://user-images.githubusercontent.com/126116482/223558288-e17a3cbd-afd7-427b-8fcc-e5977ceac814.png)
+
+
 
 
 ## Game Assets 
